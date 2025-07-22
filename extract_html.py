@@ -3,8 +3,8 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
-BASE_URL = "https://smarthr.co.in/demo/html/template/"
-OUTPUT_DIR = "smarthr_html"
+BASE_URL = "https://example.com"
+OUTPUT_DIR = "directory"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
